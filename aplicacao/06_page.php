@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<?php
+include 'layout/head.php';
+?>
+
+<body>
+
+    <?php
+    include 'layout/header.php';
+    ?>
+
+        <div class="page wrapper" style="padding: 0;">
+
+            <div style="padding: 1rem;">
+
+                <img data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600" class="egpce_na_midia" src="assets/imgs/egpce_na_midia.png" alt="">
+
+                <div class="materia" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="700">
+                    <img src="assets/imgs/materia01.jpg" alt="">
+                    <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </small>
+                    <h3>Título matéria</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, optio, sit in eius autem rem vel
+                        tempora voluptatem magnam reiciendis earum recusandae assumenda laboriosam beatae nostrum incidunt
+                        corporis, a saepe. Lorem ipsum dolor <a href="https://www.egp.ce.gov.br/revista/" target="_blank" rel="noopener noreferrer">https://www.egp.ce.gov.br/revista/</a></p>
+                </div>
+
+                <div class="materia" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="800">
+                    <h3>Título matéria</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, optio, sit in eius autem rem vel
+                        tempora voluptatem magnam reiciendis earum</p>
+                    <img src="assets/imgs/materia01.jpg" alt="">
+                    <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </small>
+                </div>
+            </div>
+
+            <div class="page-gradient" style="padding: 1rem;">
+                <div class="materia white" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">
+                    <img src="assets/imgs/materia01.jpg" alt="">
+                    <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </small>
+                    <h3>Título matéria</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, optio, sit in eius autem rem vel
+                        tempora voluptatem magnam reiciendis earum recusandae assumenda laboriosam beatae nostrum incidunt
+                        corporis, a saepe. <a href="https://www.egp.ce.gov.br/revista/" target="_blank" rel="noopener noreferrer">https://www.egp.ce.gov.br/revista/</a></p>
+                </div>
+
+                <div class="materia white" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1000">
+                    <iframe height="150" src="https://www.youtube.com/embed/3DGysP9QeFk?si=nzpnDTJRhhyB2zNK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </small>
+                    <h3>Título matéria</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, optio, sit in eius autem rem vel
+                        tempora voluptatem magnam reiciendis earum recusandae assumenda laboriosam beatae nostrum incidunt
+                        corporis, a saepe. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque dignissimos eos odio. Molestiae dignissimos est alias illo ea corrupti neque at, dolorum, exercitationem nulla possimus </p>
+                </div>
+            </div>
+
+        </div>
+
+    <?php
+    include 'layout/footer.php';
+    ?>
+
+    <div class="btn-left">
+        <a href="04_page.php"><i class="fa-solid fa-arrow-left"></i></a>
+    </div>
+
+    <div class="btn-next">
+        <a href="final.php"><i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+
+    <?php
+    include 'layout/scripts.php';
+    ?>
+
+</body>
+
+</html>
