@@ -26,9 +26,8 @@ include 'layout/head.php';
         </div>
 
         <div class="materia-numeros" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="800">
-            <h2 class="title-page cyan" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1000">Nossos Números <span>Agosto</span></h2>
-
-            <div>
+            <div class="tabela-numeros">
+                <h2 class="title-numeros dark-orange" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1000">Nossos Números</h2>
                 <table>
                     <tr>
                         <th>MODALIDADE</th>
@@ -38,27 +37,27 @@ include 'layout/head.php';
                     </tr>
                     <tr>
                         <td>CURSOS PRESENCIAIS</td>
-                        <td>11</td>
-                        <td>178</td>
-                        <td>2.164</td>
+                        <td><span class="counter-up" data-count-to="11"></span></td>
+                        <td><span class="counter-up" data-count-to="178"></span></td>
+                        <td><span class="counter-up" data-count-to="2164"></span></td>
                     </tr>
                     <tr>
                         <td>CURSOS EAD</td>
-                        <td>30</td>
-                        <td>1.128</td>
-                        <td>55.080</td>
+                        <td><span class="counter-up" data-count-to="30"></span></td>
+                        <td><span class="counter-up" data-count-to="1128"></span></td>
+                        <td><span class="counter-up" data-count-to="55080"></span></td>
                     </tr>
                     <tr>
                         <td>CURSOS REMOTO ONLINE</td>
-                        <td>1</td>
-                        <td>74</td>
-                        <td>148</td>
+                        <td><span class="counter-up" data-count-to="1"></span></td>
+                        <td><span class="counter-up" data-count-to="74"></span></td>
+                        <td><span class="counter-up" data-count-to="148"></span></td>
                     </tr>
                     <tr>
-                        <td>TOTAL</td>
-                        <td>42</td>
-                        <td>1.380</td>
-                        <td>57.392</td>
+                        <td><strong>TOTAL</strong></td>
+                        <td><span class="counter-up" data-count-to="42"></span></td>
+                        <td><span class="counter-up" data-count-to="1380"></span></td>
+                        <td><span class="counter-up" data-count-to="57392"></span></td>
                     </tr>
                 </table>
             </div>

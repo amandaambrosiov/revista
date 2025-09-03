@@ -26,10 +26,11 @@ include 'layout/head.php';
         </div>
 
         <div class="materia-rede" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="800">
-            <h2 class="title-page cyan" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1000">EGPCE nas Redes Sociais <span>Agosto</span></h2>
+            <h2 class="title-page cyan" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1000">EGPCE nas Redes Sociais</h2>
 
             <div class="materia" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1000">
                 <div class="wrapper">
+
                     <div style="margin-right: 1rem;" class="tabela-rede">
                         <div class="rede">
                             <i class="fa-brands fa-instagram"></i> Instagram
@@ -38,15 +39,15 @@ include 'layout/head.php';
                             <tbody>
                                 <tr>
                                     <td class="td-head">Seguidores</td>
-                                    <td><span class="counter-up" data-count-to="23570"></span></td>
+                                    <td><span class="counter-up cyan" data-count-to="23570"></span></td>
                                 </tr>
                                 <tr>
                                     <td class="td-head">Visualizações</td>
-                                    <td><span class="counter-up" data-count-to="263344"></span></td>
+                                    <td><span class="counter-up cyan" data-count-to="263344"></span></td>
                                 </tr>
                                 <tr>
                                     <td class="td-head">Publicações</td>
-                                    <td><span class="counter-up" data-count-to="60"></span></td>
+                                    <td><span class="counter-up cyan" data-count-to="60"></span></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -59,15 +60,15 @@ include 'layout/head.php';
                             <tbody>
                                 <tr>
                                     <td class="td-head">Seguidores</td>
-                                    <td><span class="counter-up" data-count-to="1635"></span></td>
+                                    <td><span class="counter-up cyan" data-count-to="1635"></span></td>
                                 </tr>
                                 <tr>
                                     <td class="td-head">Visualizações</td>
-                                    <td><span class="counter-up" data-count-to="1571"></span></td>
+                                    <td><span class="counter-up cyan" data-count-to="1571"></span></td>
                                 </tr>
                                 <tr>
                                     <td class="td-head">Publicações</td>
-                                    <td><span class="counter-up" data-count-to="8"></span></td>
+                                    <td><span class="counter-up cyan" data-count-to="8"></span></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -87,7 +88,7 @@ include 'layout/head.php';
     </div>
 
     <div class="btn-next">
-        <a href="final.php"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="06_page.php"><i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <?php

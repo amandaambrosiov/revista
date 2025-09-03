@@ -18,10 +18,11 @@ include 'layout/head.php';
             <p class="capa-sub" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">INFORMAÇÃO, EDUCAÇÃO
                 E LIDERANÇA . EDIÇÃO 27. JUNHO. 2025</p>
             <img class="img-capa" src="assets/imgs/capa_revista.jpg" height="400" alt="">
-            <h1 class="capa-title" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="800">Seminário
-                Transformação Digital e Governança Interfederativa</h1>
-            <img class="logo-egp" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900"
-                src="assets/imgs/egpce_seplag.png" height="130" alt="">
+            <div data-aos="fade-right" data-aos-duration="1500" data-aos-delay="800">
+                <h1 class="capa-title">Seminário
+                    Transformação Digital e Governança Interfederativa</h1>
+                <img class="logo-egp" src="assets/imgs/egpce_seplag.png" height="130" alt="">
+            </div>
         </div>
     </div>
 

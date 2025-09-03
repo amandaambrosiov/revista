@@ -81,11 +81,11 @@ include 'layout/head.php';
     ?>
 
     <div class="btn-left">
-        <a href="index.php"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="index.php"><i class="fa-solid fa-arrow-left"></i></a>
     </div>
 
     <div class="btn-next">
-        <a href="02_page.php"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="01_page.php"><i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <?php

@@ -5,6 +5,7 @@
     --ciano: #2db39e;
     --laranja: #e06a0c;
     --laranja-escuro: #e94f0e;
+    --amarelo: #FCCF05;
     --cinza-fundo: #e6e6e6;
     --texto: #5e5e5e;
     --branco: #ffffff;
@@ -36,6 +37,13 @@ body {
     height: 85vh;
 }
 
+.center-ouvidoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 .capa {
     background-color: var(--branco);
     max-width: 700px;
@@ -65,6 +73,11 @@ body {
 
 .page-gradient {
     background: linear-gradient(90deg, rgba(38, 167, 55, 1) 0%, rgba(45, 179, 158, 1) 100%);
+}
+
+.page-gradient-ceara {
+    background: #2C887C;
+    background: linear-gradient(90deg, rgba(44, 136, 124, 1) 0%, rgba(82, 185, 170, 1) 100%);
 }
 
 .white {
@@ -216,6 +229,10 @@ body {
     color: var(--branco);
 }
 
+.ceara h3 {
+    color: #2C887C;
+}
+
 .header {
     padding: 1rem;
     background: #26A737;
@@ -244,6 +261,10 @@ body {
 
 .cyan {
     color: var(--ciano);
+}
+
+.dark-orange {
+    color: var(--laranja-escuro);
 }
 
 .equipe {
@@ -309,10 +330,11 @@ footer {
     margin-bottom: 2rem;
 }
 
-.materia-rede{
+.materia-rede {
     background-color: #2db39f3f;
     width: 100%;
-    padding: 1rem;
+    padding: 4rem;
+    padding-top: 2rem;
     margin-top: 2rem;
 }
 
@@ -329,7 +351,7 @@ footer {
     border-top-right-radius: 15px;
 }
 
-table {
+.tabela-rede table {
     border-collapse: separate;
     width: 100%;
     margin: 0 auto;
@@ -342,34 +364,78 @@ table {
     border-bottom-right-radius: 15px;
 }
 
-table th {
+.tabela-rede table th {
     background-color: #f4f4f4;
     font-weight: bold;
 }
 
-table th,
-table td {
+.tabela-rede table th,
+.tabela-rede table td {
     padding: 10px 15px;
 }
 
-table tr:nth-child(even) {
+.tabela-rede table tr:nth-child(even) {
     background-color: #ffffff;
 }
 
-table tr:hover {
+.tabela-rede table tr:hover {
     background-color: #f1f1f1;
     transition: 0.3s;
 }
 
 .counter-up {
-    color: var(--ciano);
     font-weight: 600;
+}
+
+.title-numeros {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.tabela-numeros {
+    background-color: #e06b0c33;
+    padding: 4rem;
+    padding-top: 2rem;
+}
+
+.tabela-numeros table {
+    border-collapse: separate;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border-spacing: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #F59C00;
+    color: #000;
+}
+
+.tabela-numeros table th,
+.tabela-numeros table td {
+    padding: 10px 15px;
+}
+
+.tabela-numeros table tr:nth-child(even) {
+    background-color: #E06A0C;
+}
+
+.tabela-numeros table tr th {
+    background-color: #e94f0e;
+    color: #000;
 }
 
 .egpce_na_midia {
     height: 75px;
     width: auto;
     margin: 0.7rem;
+}
+
+.ceara_um_so {
+    height: 100px;
+    width: auto;
+    margin: 0.8rem;
 }
 
 .materia .img_point_of_view {
@@ -384,4 +450,127 @@ table tr:hover {
 
 .materia h4 {
     font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.page .materia-numeros,
+.page .materia-rede {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    margin-bottom: -2rem;
+    width: calc(100% + 4rem);
+}
+
+.img_curso {
+    margin-left: -2rem;
+    margin-right: -2rem;
+    margin-top: -2rem;
+    width: calc(100% + 4rem);
+    height: 200px;
+    object-fit: cover;
+}
+
+.page .card-cursos {
+    width: calc(100% + 3rem);
+}
+
+.card-cursos {
+    background-color: var(--verde);
+    margin-top: 2rem;
+    padding: 1rem;
+    color: var(--branco);
+    font-weight: 200;
+}
+
+.card-cursos h3 {
+    color: var(--branco);
+    margin-bottom: 0.4rem;
+}
+
+.card-cursos p {
+    margin-bottom: 0.3rem;
+}
+
+.card-cursos a {
+    display: inline-block;
+    padding: 8px 24px;
+    background-color: var(--branco);
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--verde);
+    font-weight: 500;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-cursos a:hover {
+    transform: scale(1.05);
+}
+
+.coluna-cursos {
+    padding: 1rem;
+}
+
+.cursos {
+    margin-bottom: 1rem;
+}
+
+.cursos h3 {
+    color: var(--verde);
+    font-weight: 400;
+}
+
+.cursos li {
+    list-style: none;
+}
+
+.title-cursos {
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+    padding: 5px;
+    padding-left: 3rem;
+    background-color: var(--branco);
+}
+
+.page .title-cursos {
+    margin-left: -2rem;
+    width: calc(100% + 1rem);
+}
+
+.historia-title {
+    font-size: 2rem;
+    line-height: 1;
+    display: flex;
+    align-items: end;
+}
+
+.historia div {
+    margin-top: 1.3rem;
+    padding-right: 1rem;
+}
+.historia p {
+    font-weight: 200;
+    margin-bottom: 0.6rem;
+}
+
+.card-historia {
+    background-color: var(--branco);
+    color: #5e5e5e;
+    padding: 0.4rem 0.8rem;
+}
+
+.page .card-historia {
+    width: calc(100% + 3rem);
+}
+
+.card-historia h3 {
+    color: #5e5e5e;
+    font-weight: 400;
+}
+
+.ouvidoria h1 {
+    color: var(--verde);
+}
+
+.ouvidoria h3, .ouvidoria h2  {
+    color: var(--laranja);
 }
