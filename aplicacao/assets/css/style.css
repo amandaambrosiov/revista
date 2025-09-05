@@ -547,6 +547,7 @@ footer {
     margin-top: 1.3rem;
     padding-right: 1rem;
 }
+
 .historia p {
     font-weight: 200;
     margin-bottom: 0.6rem;
@@ -569,8 +570,78 @@ footer {
 
 .ouvidoria h1 {
     color: var(--verde);
+    font-weight: 400;
+    margin-top: 1rem;
 }
 
-.ouvidoria h3, .ouvidoria h2  {
+.ouvidoria h3,
+.ouvidoria h2 {
     color: var(--laranja);
+}
+
+.ouvidoria h2 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.ouvidoria h3 {
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 1.2rem;
+}
+
+.ouvidoria a {
+    text-decoration: none;
+    color: #5e5e5e;
+}
+
+.ouvidoria hr {
+    border-bottom: 1px solid var(--laranja);
+    margin: 2rem 0;
+}
+
+.siga i {
+    margin: 1rem 0.3rem;
+}
+
+.siga .fa-facebook-f {
+    background-color: #3b5998;
+    color: white;
+    padding: 12px 15px;
+    padding-right: 25px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.siga .fa-instagram {
+    background: #6600ff;
+    background: linear-gradient(161deg, rgba(102, 0, 255, 1) 0%, rgba(212, 78, 207, 1) 21%, rgba(214, 36, 119, 1) 51%, rgba(214, 119, 36, 1) 79%, rgba(214, 184, 36, 1) 100%);
+    color: white;
+    padding: 12px 12px;
+    padding-right: 27px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.siga .fa-youtube {
+    background-color: #c4302b;
+    color: white;
+    padding: 12px 12px;
+    padding-right: 28px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.siga .fa-linkedin-in {
+    background-color: #0e76a8 ;
+    color: white;
+    padding: 12px 12px;
+    padding-right: 26px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+.siga .fa-facebook-f:hover, .siga .fa-instagram:hover,.siga .fa-youtube:hover, .siga .fa-linkedin-in:hover  {
+    transform: scale(1.1);
 }

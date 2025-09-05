@@ -20,9 +20,11 @@ include 'layout/head.php';
 
                 <h2>FORMAS DE ACESSO</h2>
 
+                <hr>
+
                 <h3>Acessando pelo endereço eletrônico:</h3>
 
-                <a href="https://www.egp.ce.gov.br/ouvidoria/">https://www.egp.ce.gov.br/ouvidoria/</a>
+                <a href="https://www.egp.ce.gov.br/ouvidoria/"><i class="fa-solid fa-link"></i> https://www.egp.ce.gov.br/ouvidoria/</a>
 
                 <p>Pelo e-mail: ouvidoria@egp.ce.gov.br</p>
                 <p>Pelo telefone: (85) 3108-0900</p>
@@ -41,7 +43,16 @@ include 'layout/head.php';
 
                 <p>Av. General Afonso Albuquerque Lima, S/N - Cambeba, Fortaleza, Ce. - Cep: 60.822-325</p>
 
+                <hr>
+
                 <h1>SIGA</h1>
+
+                <div class="siga">
+                    <a href="https://www.facebook.com/escoladegestaoce/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/egpce/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@egpce"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.linkedin.com/school/egpce/posts/?feedView=all"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
             </div>
 
         </div>
