@@ -62,11 +62,11 @@ include 'layout/head.php';
     ?>
 
     <div class="btn-left">
-        <a href="05_page.php"><i class="fa-solid fa-arrow-left"></i></a>
+        <a href="09_instrutores.php"><i class="fa-solid fa-arrow-left"></i></a>
     </div>
 
     <div class="btn-next">
-        <a href="07_page.php"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="11_cursos.php"><i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <?php

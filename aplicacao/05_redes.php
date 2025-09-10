@@ -26,12 +26,15 @@ include 'layout/head.php';
         </div>
 
         <div class="materia-rede" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="800">
-            <h2 class="title-page cyan" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1000">EGPCE nas Redes Sociais</h2>
 
-            <div class="materia" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1000">
+            <div class="mes d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1100">Agosto</div>
+
+            <h2 class="title-page cyan d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1000">EGPCE nas Redes Sociais</h2>
+
+            <div class="materia" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="1300">
                 <div class="wrapper">
 
-                    <div style="margin-right: 1rem;" class="tabela-rede">
+                    <div class="tabela-rede instagram">
                         <div class="rede">
                             <i class="fa-brands fa-instagram"></i> Instagram
                         </div>
@@ -84,11 +87,11 @@ include 'layout/head.php';
     ?>
 
     <div class="btn-left">
-        <a href="04_page.php"><i class="fa-solid fa-arrow-left"></i></a>
+        <a href="04_materia.php"><i class="fa-solid fa-arrow-left"></i></a>
     </div>
 
     <div class="btn-next">
-        <a href="06_page.php"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="06_midia.php"><i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <?php

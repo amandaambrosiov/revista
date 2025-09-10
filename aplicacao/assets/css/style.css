@@ -26,7 +26,7 @@
 }
 
 body {
-    background-color: var(--cinza-fundo);
+    background-color: var(--cinza-fundo) !important;
     color: var(--texto);
 }
 
@@ -259,6 +259,13 @@ body {
     margin-top: 0.5rem;
 }
 
+.mes {
+    /* margin-left: 1rem;  */
+    margin-top: -1rem;
+    font-size: 1.4rem;
+    color: var(--texto);
+}
+
 .cyan {
     color: var(--ciano);
 }
@@ -294,8 +301,8 @@ body {
 
 /* Header */
 header {
-    background: white;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* background: white; */
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
     padding: 1rem 4rem;
     display: flex;
     justify-content: space-between;
@@ -307,21 +314,16 @@ header {
     height: 50px;
 }
 
-nav a {
-    color: var(--verde);
-    text-decoration: none;
-    font-weight: 500;
-    padding: 0.5rem 1rem;
-    border: 2px solid transparent;
-    border-radius: 25px;
-    transition: all 0.3s ease;
+.menu-offcanvas {
+    background-color: var(--verde) !important;
+    color: var(--branco) !important;
+    transition: all 0.3s ease !important;
 }
 
-nav a:hover {
-    /* color: var(--branco); */
-    background: #26a7373d;
-    border-color: #26A737;
+.menu-offcanvas:hover {
+    transform: scale(1.1);
 }
+
 
 footer {
     display: flex;
@@ -397,6 +399,7 @@ footer {
     background-color: #e06b0c33;
     padding: 4rem;
     padding-top: 2rem;
+    overflow-x: auto;
 }
 
 .tabela-numeros table {
@@ -410,11 +413,13 @@ footer {
     border-radius: 10px;
     background-color: #F59C00;
     color: #000;
+    /* min-width: 600px; */
 }
 
 .tabela-numeros table th,
 .tabela-numeros table td {
     padding: 10px 15px;
+    /* white-space: nowrap; */
 }
 
 .tabela-numeros table tr:nth-child(even) {
@@ -634,7 +639,7 @@ footer {
 }
 
 .siga .fa-linkedin-in {
-    background-color: #0e76a8 ;
+    background-color: #0e76a8;
     color: white;
     padding: 12px 12px;
     padding-right: 26px;
@@ -642,6 +647,116 @@ footer {
     transition: 0.3s ease-in-out;
 }
 
-.siga .fa-facebook-f:hover, .siga .fa-instagram:hover,.siga .fa-youtube:hover, .siga .fa-linkedin-in:hover  {
+.siga .fa-facebook-f:hover,
+.siga .fa-instagram:hover,
+.siga .fa-youtube:hover,
+.siga .fa-linkedin-in:hover {
     transform: scale(1.1);
+}
+
+.revistas {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    /* espaço entre as revistas */
+}
+
+.revistas a {
+    text-decoration: none;
+    display: flex;
+    /* deixa o link como flex container */
+    flex-direction: column;
+    /* organiza imagem e título em coluna */
+    align-items: center;
+    /* centraliza horizontalmente */
+}
+
+.revistas a img {
+    box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.185);
+    width: 150px;
+    /* opcional: define tamanho */
+    height: auto;
+}
+
+.revistas a h1 {
+    font-size: 1rem;
+    color: var(--texto);
+    margin: 1rem 0;
+    width: 200px;
+    text-align: center;
+}
+
+/* ===== Transformar em cards no mobile ===== */
+@media (max-width: 768px) {
+
+    .tabela-numeros table,
+    .tabela-numeros thead,
+    .tabela-numeros tbody,
+    .tabela-numeros th,
+    .tabela-numeros td,
+    .tabela-numeros tr {
+        display: block;
+        width: 100%;
+        color: #131313 !important;
+    }
+
+    .tabela-numeros .thead {
+        display: none;
+        /* esconde o cabeçalho */
+    }
+
+    .tabela-numeros tr {
+        background: #F59C00;
+        margin-bottom: 1rem;
+        /* border: 1px solid #4b4b4b; */
+        border-radius: 8px;
+        padding: 10px;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    .tabela-numeros td {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px 10px;
+        border: none;
+        min-width: 250px;
+        /* border-bottom: 1px solid #bbbbbb; */
+    }
+
+    .tabela-numeros td:last-child {
+        border-bottom: none;
+    }
+
+    .tabela-numeros td::before {
+        content: attr(data-label);
+        /* pega o nome da coluna */
+        font-weight: light;
+        text-transform: uppercase;
+        /* color: #333; */
+        margin-right: 10px;
+    }
+
+    .tabela-numeros table {
+        background: none;
+    }
+
+    .tabela-numeros table tr:nth-child(even) {
+        background-color: #e06a0c;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .instagram {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    .instagram {
+        margin-right: 1rem;
+    }
 }

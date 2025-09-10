@@ -85,7 +85,7 @@ include 'layout/head.php';
     </div>
 
     <div class="btn-next">
-        <a href="01_page.php"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="02_editorial.php"><i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <?php

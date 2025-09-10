@@ -15,10 +15,10 @@ include 'layout/head.php';
 
         <div class="wrapper">
             <div>
-                <img src="assets/imgs/materia01.jpg" height="200" alt="">
+                <img data-aos="fade-right" data-aos-duration="1500" data-aos-delay="100" src="assets/imgs/materia01.jpg" height="200" alt="">
             </div>
             <div class="historia-title">
-                <h2>MINHA
+                <h2 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="200">MINHA
                     HISTÓRIA
                     COM A EGPCE</h2>
             </div>
@@ -26,7 +26,7 @@ include 'layout/head.php';
 
         <div class="historia wrapper">
             <div>
-                <p>
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="300">
                     Na minha atuação na Escola de
                     Gestão Pública do Ceará (EGPCE),
                     tive a oportunidade de vivenciar uma
@@ -39,7 +39,7 @@ include 'layout/head.php';
                     internos da instituição.
                 </p>
 
-                <p>
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="400">
                     Pude colaborar diretamente com
                     a liderança da EGPCE e participar
                     de projetos estratégicos de grande
@@ -51,7 +51,7 @@ include 'layout/head.php';
                     mais elevados padrões de conduta.
                 </p>
 
-                <p>
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
                     Também estive diretamente envolvida
                     na criação da Secretaria de Seleção
                     de Liderança (Sexec-Lid), um projeto
@@ -65,7 +65,7 @@ include 'layout/head.php';
                 </p>
             </div>
             <div>
-                <p>
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="600">
                     Outro aspecto relevante da minha
                     atuação foi o apoio na prestação
                     de contas da instituição, utilizando
@@ -78,7 +78,7 @@ include 'layout/head.php';
                     cumprimento das exigências legais.
                 </p>
 
-                <p>
+                <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="700">
                     Esses desafios envolveram não apenas a
                     criação de protocolos e procedimentos,
                     mas também o engajamento com
@@ -93,8 +93,8 @@ include 'layout/head.php';
                     resolução de problemas.
                 </p>
                 <div class="card-historia">
-                    <h3>Maria Marfisa Teixeira Melo</h3>
-                    <p>Consultora Administrativa Comercial - FUJICOM</p>
+                    <h3 data-aos="fade-right" data-aos-duration="1500" data-aos-delay="800">Maria Marfisa Teixeira Melo</h3>
+                    <p data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">Consultora Administrativa Comercial - FUJICOM</p>
                 </div>
             </div>
         </div>
@@ -108,11 +108,11 @@ include 'layout/head.php';
 
 
     <div class="btn-left">
-        <a href="01_equipe.php"><i class="fa-solid fa-arrow-left"></i></a>
+        <a href="11_cursos.php"><i class="fa-solid fa-arrow-left"></i></a>
     </div>
 
     <div class="btn-next">
-        <a href="03_page.php"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="13_ouvidoria.php"><i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <?php

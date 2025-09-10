@@ -49,11 +49,11 @@ include 'layout/head.php';
 
 
     <div class="btn-left">
-        <a href="02_page.php"><i class="fa-solid fa-arrow-left"></i></a>
+        <a href="02_editorial.php"><i class="fa-solid fa-arrow-left"></i></a>
     </div>
 
     <div class="btn-next">
-        <a href="04_page.php"><i class="fa-solid fa-arrow-right"></i></a>
+        <a href="04_materia.php"><i class="fa-solid fa-arrow-right"></i></a>
     </div>
 
     <?php
